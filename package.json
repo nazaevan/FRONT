@@ -7,11 +7,17 @@
     "test": "testcafe chrome ./pom/tests --reporter html:./report.html",
     "testh": "testcafe chrome:headless ./pom/tests --reporter jenkins",
     "login-testing": "testcafe chrome:headless,firefox:headless ./pom/tests/Login.test.js",
+    "loginh-testing": "testcafe chrome:headless,firefox:headless ./pom/tests/Login.test.js",
     "project-testing": "testcafe chrome,firefox ./pom/tests/ProjectManagement.test.js",
+    "projecth-testing": "testcafe chrome:headless,firefox:headless ./pom/tests/ProjectManagement.test.js",
     "task-testing": "testcafe chrome,firefox ./pom/tests/TaskManagement.test.js",
+    "taskh-testing": "testcafe chrome:headless,firefox:headless ./pom/tests/TaskManagement.test.js",
     "smoke-testing": "testcafe chrome ./pom/tests --test-meta type=smoke",
+    "smokeh-testing": "testcafe chrome:headless ./pom/tests --test-meta type=smoke",
     "regression-testing": "testcafe chrome ./pom/tests --test-meta type=regression",
-    "load-testing": "testcafe chrome ./pom/tests --test-meta type=load"
+    "regressionh-testing": "testcafe chrome:headless ./pom/tests --test-meta type=regression",
+    "load-testing": "testcafe chrome ./pom/tests --test-meta type=load",
+    "loadh-testing": "testcafe chrome:headless ./pom/tests --test-meta type=load"
   },
   "author": "nazaevan",
   "license": "ISC",
