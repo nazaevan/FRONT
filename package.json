@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "testhtml": "testcafe chrome:headless ./pom/tests --reporter html:./report.html",
-    "testhxml": "testcafe chrome:headless ./pom/tests --reporter jenkins",
+    "testhxml": "testcafe chrome:headless ./pom/tests --reporter jenkins:./report.xml",
     "login-testing": "testcafe chrome:headless,firefox:headless ./pom/tests/Login.test.js",
     "loginh-testing": "testcafe chrome:headless,firefox:headless ./pom/tests/Login.test.js",
     "project-testing": "testcafe chrome,firefox ./pom/tests/ProjectManagement.test.js",
