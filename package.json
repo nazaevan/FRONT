@@ -18,6 +18,7 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "testcafe": "^1.16.1",
-    "testcafe-reporter-html": "^1.4.6"
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-jenkins": "^1.0.1"
   }
 }
